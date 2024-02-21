@@ -7,7 +7,7 @@ Helped with design: ChujBob , Ashmane A.k.a Pepa Floydsky <br />
 Helped with bugs: [Tunki](https://github.com/Tsunaam1) <br />
 
 Currently the web is mostly done <br />
-To-Do: <br />
+To-Do List -> 
 optional: <br />
   -Add more projects <br />
   -Mobile version
