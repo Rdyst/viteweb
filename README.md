@@ -1,7 +1,7 @@
 # Game Developer Web
 
 This is a web made with Vite + React about a game dev studio "napicu" <br />
-[Web](https://rdyst.github.io/viteweb/) <br />
+You can find the web [here](https://rdyst.github.io/viteweb/) <br />
 Creator: [Rdyst](https://github.com/Rdyst) A.k.a sasa <br />
 Helped with design: ChujBob , Ashmane A.k.a Pepa Floydsky <br />
 Helped with bugs: [Tunki](https://github.com/Tsunaam1) <br />
