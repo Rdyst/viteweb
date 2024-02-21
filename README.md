@@ -16,11 +16,11 @@ optional: <br />
   -optimize the code more for faster loads <br />
 
 # How to install/Run
-You can either visit the [web](https://rdyst.github.io/viteweb/) or run it yourself <br/>
-Firstly download [node.js](https://nodejs.org/en/) and then download this repo <br />
-Make a new folder and open it in your Visual Studio Code (or other editors) and open a terminal <br />
-Run this command "npm create vite@latest" (name,React,typescript) and follow the instructions that will show up after finishing this <br />
-after running "npm run dev" you should see the link of the web and you are done ! <br/>
+You can either visit the [web](https://rdyst.github.io/viteweb/) or run it yourself <br/><br/>
+Firstly download [node.js](https://nodejs.org/en/) and then download this repo <br /><br/>
+Make a new folder and open it in your Visual Studio Code (or other editors) and open a terminal <br /><br/>
+Run this command "npm create vite@latest" (name,React,typescript) and follow the instructions that will show up after finishing this <br /><br/>
+after running "npm run dev" you should see the link of the web and you are done ! <br/><br/>
 If you want to run my repo then just download it and paste/replace it in your newly made vite-project.
 
 
