@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+::-webkit-scrollbar{
+    width: 12px;
+  }
+      
+
+  /* #353535; */
+
+  ::-webkit-scrollbar-track{
+    background-color: #242424;
+  }
+
+  ::-webkit-scrollbar-thumb{
+    background-color: rgba(141, 20, 135, 0.692);
+    border-radius: 5px;
+  }
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Mono";
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #242424;
+}
+
+.kebab{
+    position: fixed;
+    margin-left: 95vw;
+    margin-top: -65vh;
+    width: 60px;
+    cursor: pointer;
+    
+}
+
+
+
+.bobr{
+    position: absolute;
+    top: 4vh;
+    left: 71vw;   
+    width: 28vw;
+    filter: drop-shadow(0 0 1rem rgb(147,20,135));
+
+}
+.news{
+    background-color: rgb(26, 25, 18);
+}
+
+.about{
+    padding: 5vh;
+    color: rgb(147,20,135);
+}
+.about> h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 90px;
+    letter-spacing: 50px;
+    font-size: 5.5em;   
+    margin-top: 10vh;
+    font-weight: 100;
+}
+.about> p{
+    display: flex;
+    border: none;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 60px;
+    letter-spacing: 0.8px;
+    font-size: 1.8em;
+    margin-top: 10vh;
+}
+
+
+
+
+.navigacebg{
+    background:rgb( 26 25 18) ;
+}
+
+.navigace {
+    display: flex;
+    height: 20vh;
+    width: 99vw;
+    --shape: 0% 0%, 70% 0% , 65.1% 100% , 75% 100%, 0% 100%, 0% 100%;
+    -webkit-clip-path: polygon(var(--shape));
+            clip-path: polygon(var(--shape));
+
+    background:rgb(141, 20, 135) ;
+  }
+
+.navigace > ul {
+    position: absolute;
+    
+}
+ul>li>a{
+    text-decoration: none;
+}
+.navigace > h1{
+    font-size: 8em;
+    margin-left: 5vw;
+    margin-top: -20px;
+    color: white;
+    letter-spacing: 100px;
+    font-weight: 500  ;
+    font-family: 'Noto Sans TC', sans-serif;
+    
+
+
+
+}
+
+.test{
+    position: absolute;
+    margin-top: 600vh;
+}
+
+
+#kebab{
+    
+    height: fit-content;
+    width: 9vw;
+    float: left;
+    border: solid rgb(141, 20, 135) 1px ;
+    background:#242424;
+
+    top: 0px;
+    left: 85vw;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+}
+.kebaback{
+    animation-name: kebaback;
+    animation-duration: 0.5s;
+}
+
+@keyframes kebaback {
+    from{
+        height: 35vh;
+        width: 9vw;
+    }
+    to{
+        height: 0;
+        
+    }
+}
+
+#kebabtext{
+    display: block;
+    text-decoration: none;
+    color:rgb(255, 255, 255) ;
+    margin:20px ;
+    background: rgb(141, 20, 135);
+    border: solid rgb(141, 20, 135) 1px ;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    animation-name: kebab;
+    animation-duration: 1s;
+}
+
+@keyframes kebab {
+    from {
+        margin-top: -10vh ;
+    }
+    to {
+        margin-top: 2vh;
+    }
+    
+}
+
+.tools{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.tools a > img {
+    width: 200px;
+    height: 200px;
+}
+.svg{
+    fill:rgb(141, 20, 135) ;
+
+    transition: 0.2s  ease-in-out;
+    
+    margin-top: 10vh;
+}
+
+.svg:hover{
+    filter: grayscale(100);
+    transition: 0.2s  ease-in-out;
+    transform: scale(1.2);
+    
+}
+.tools2 a > img {
+    width: 200px;
+    height: 200px;
+}
+.tools2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.sponsorkon > p {
+    font-size: 2em;
+    color: rgb(141, 20, 135);
+}
+
+.tunki {
+    margin-left: 10vw;
+    width: 300px;
+}
+
+.sponsorkon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 10vh;
+}
+
+
+/* DEV STUFF */
+
+.arrowback{
+    width: 60px;
+    height: 60px;
+}
+.arrowback:hover{
+    cursor:pointer;
+}
+#dev{
+    padding-bottom: 5vh;
+}
+.devkon > h2{
+    color:  rgb(141, 20, 135) ;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 120px;
+}
+.devteam {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    row-gap: 6em;
+}
+
+.devback{
+    animation-name: devback;
+    animation-duration: 2s;
+}
+
+@keyframes devback {
+    from{
+        margin-left: -500vw;
+    }
+    to{
+        margin-left: 0;
+    }
+}
+
+.pfp{
+    width: 300px;
+    border:rgb(141, 20, 135) solid 5px ;
+
+}
+.pfp:hover{
+    cursor:pointer;
+}
+
+
+.chujbobdev {
+    background-image: url("https://geosociety.files.wordpress.com/2023/03/dunn-fairfax-1.jpg");
+}
+
+.pepadev{   
+    background-image: url("https://cdn.nexus.gg/assets/vidya/bb414dcfd5f14884ade3928c4f284243/images/screenshots/1.jpg");
+    background-size: 300px 300px;
+    
+}
+
+#negr{
+    display: none;
+}
+
+.negr{
+    display: none;
+}
+
+.devcss{
+    width: 99vw;
+    height: 80vh;
+    border-top:rgb(141, 20, 135) solid 5px ;
+    border-bottom:rgb(141, 20, 135) solid 5px ;
+    outline: white solid 1px;
+    border-right:rgb(141, 20, 135) solid 5px ;
+    display: grid;
+    word-wrap: break-all;
+    grid-template-columns: auto auto;
+    grid-template-rows: 300px;
+    grid-row: 0px;
+    
+    
+}
+
+
+/* POZADI */
+.sasabg{
+    background-image: url("https://images.unsplash.com/photo-1516528387618-afa90b13e000");
+    background-size: 100vw 100vh;
+    animation-name: sasa;
+    animation-duration: 1s;
+}
+
+.pepabg{
+    background-image: url("./images/silenthill.jpg");
+    background-size: 100vw 100vh;
+}
+.chujbobbg{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/220/588/881/beaver-castor-rodent-wallpaper-preview.jpg   ");
+    background-size: 100vw 100vh;
+}
+.miguelbg{
+    background-image: url("https://www.liveabout.com/thmb/et2hhbSZP1Q_f950sG4x6ARCje8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-76133069-57c37a0b3df78cc16ebb287e.jpg");
+    background-size: 100vw 100vh;
+}
+.adambg{
+    background-image: url("https://preview.redd.it/my-mordor-drawing-v0-y8djh27y98ba1.png?auto=webp&s=30d047d980b777c33642bfa51a88967c84d669b4");
+    background-size: 100vw 100vh;
+}
+.toastbg{
+    background-image: url("https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/NPFZMRWJJYI6XBYIMSMR6KWPFA.jpg");
+    background-size: 100vw 100vh;
+}
+
+#abouttext{
+    order: 1;
+    height: 100%;
+    font-size: 18px;
+    
+}
+
+.zobrazenapfp{
+
+    width: 300px;
+    border-bottom:rgb(141, 20, 135) solid 5px ;
+    border-right:rgb(141, 20, 135) solid 5px ;
+    height: 300px;
+    animation-name: pfp;
+    animation-duration: 1s;
+    
+
+
+}
+
+@keyframes pfp {
+    from{margin-left: -10vw;
+    height: 0;
+    width: 0;
+}
+
+    to{
+
+}
+}
+
+.pepazobrazena{
+    background-image: url("https://cdn.nexus.gg/assets/vidya/bb414dcfd5f14884ade3928c4f284243/images/screenshots/1.jpg");
+    background-size: 300px 300px;
+}
+
+.chujbobzobrazena{
+    background-image: url("https://geosociety.files.wordpress.com/2023/03/dunn-fairfax-1.jpg");
+    background-size: 300px 300px;
+}
+
+#other{
+    order: 2;
+    width: 300px;
+    height: 100%;
+    animation-name: other;
+    animation-duration: 2s;
+    padding-left: 10px;
+    
+
+}
+
+@keyframes other {
+    from{
+        margin-left: -30vw;
+    }
+
+    to{
+
+    }
+}
+
+.teset{
+    position: absolute;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+
+.anim{
+    animation-name: devteam;
+    animation-duration: 2s;
+}
+
+
+@keyframes devteam {
+    from{width: 0vw;
+    } 
+    to{
+    }
+ }
+
+.abouttext>p{
+    animation-name: abouttext;
+    animation-duration: 2s;
+
+}
+
+@keyframes abouttext {
+    from{
+        margin-left: -30vw;
+    }
+    to{
+        
+    }
+}
+
+/* FOOTER */
+.footer{
+    margin-bottom: 0;
+    background-color: rgb(26, 25, 18);
+    height: 5vh;
+    text-align: center;
+    
+}
+.footer>p{
+    padding-top: 1vh;
+    color: rgb(141, 20, 135);
+}
+/* DEV STUFF */
+.githubicon{
+    width: 80px;
+    height: 80px;
+    filter: brightness(100);
+}
+.steamicon{
+    margin-bottom: 15px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+}
+#sasap{
+    color: white;
+}
+.sasabgcolor{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.sasapopis{
+    color: white;
+    margin-top: 60vh;
+}
+#pepap{
+    color: red;
+    font-size: 20px;
+}
+.pepabgcolor{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.pepapopis{
+    margin-top: 100px;
+    color: white;
+}
+#michalp{
+    color: white;
+    font-size: 20px;
+}
+.michalbgcolor{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.italg{
+    color: green;
+}
+.italr{
+    color: red;
+}
+#toastyp{
+    font-size: 20px;
+    color: rgb(250,250,20);
+}
+.toastybgcolor{
+    background-color: rgb(145,122,79,70%)
+}
+#adamp{
+    font-size: 20px;
+    color:rgb(250, 150, 60);
+}
+.adambgcolor{
+    background-color: rgba(0,0,0,50%)
+}
+#chujbobp{
+    font-size: 20px;
+    color: rgb(230, 0, 161);
+   
+}
+.chujbobbgcolor{
+    background-color: rgba(0,0,0,70%);
+}
+.chujbobpopis{
+    color: rgb(230, 0, 161);
+    background-color: rgba(0,0,0,70%);
+    width: fit-content;
+    border: solid white 1px;
+    border-radius: 50%;
+    padding: 30px;
+    margin: 30vh;
+    margin-left: 40vw;
+}
+/* PROJECTS */
+h5{
+    color: rgb(141, 20, 135);
+    font-size: 50px;
+}
+.projects{
+    padding-top: 30vh;
+}
+.movementproject{
+    display: flex;
+    background-color: rgba(0,0,0,70%);
+}
+.movementpopis{
+margin-left: 10px;
+}
+.movementpopis>p,h4{
+    color: rgb(141, 20, 135);
+
+}
+
+.projecta{
+margin-left: 7.2vw;
+margin-top: 50vh;
+}
+
+.projectbutton:hover{
+    cursor: pointer;
+}
+.projectbutton{
+        margin-top: 50vh;
+        width: 5vw;
+        height: 5vh;
+        border-radius: 15px;
+        border: solid rgb(141, 20, 135) ;
+}
+.projectbg{
+    width: 80vw;
+    /* 
+        filter: blur(2px) grayscale(50%) brightness(30%); */
+    
+}

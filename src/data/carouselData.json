@@ -1,0 +1,19 @@
+
+
+
+{
+  "slides": [
+    {
+      "src": "https://programmerinfo1300.b-cdn.net/wp-content/uploads/2023/12/computer-program-coding-screen-min-scaled.jpg.bv.webp?bv_host=programmerinfo.com",
+      "alt": "Image 1 for carousel"
+    },
+    {
+      "src": "https://picsum.photos/seed/img2/600/400",
+      "alt": "Image 2 for carousel"
+    },
+    {
+      "src": "https://picsum.photos/seed/img3/600/400",
+      "alt": "Image 3 for carousel"
+    }
+  ]
+}

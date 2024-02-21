@@ -1,0 +1,23 @@
+@mixin font($style: $primary1) {
+    color: $style;
+    font-family:$primary-font ;
+    font-size: 6em;
+}
+
+@mixin polygon($height:700px,$width: 70vw) {
+    display: flex;
+    height: $height;
+    width: $width;    
+    --shape: 0% 0%, 75% 0% , 100% 100% , 75% 100%, 0% 100%, 0% 100%;
+    clip-path: polygon(var(--shape));
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+@mixin imgs($center:space-evenly) {
+    justify-content:$center;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+}
+
+    

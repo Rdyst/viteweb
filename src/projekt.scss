@@ -1,0 +1,118 @@
+@import "./_variables.scss" ;
+@import "_mixins.scss";
+
+
+*{
+    margin: 0px;
+}
+.pepadev{   
+    background-image: url("https://cdn.nexus.gg/assets/vidya/bb414dcfd5f14884ade3928c4f284243/images/screenshots/1.jpg");
+    background-size: 300px 300px;
+    
+}
+
+#negr{
+    display: none;
+}
+
+.negr{
+    display: none;
+}
+.pepasam{
+    position: absolute;
+    width: 300px;
+    border:rgb(141, 20, 135) solid 5px ;
+    background-image: url("https://cdn.nexus.gg/assets/vidya/bb414dcfd5f14884ade3928c4f284243/images/screenshots/1.jpg");
+    background-size: 300px 300px;
+    margin-top: 300px;
+
+
+}
+.tools2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.sponsorkon  {
+    p{font-size: 2em;
+        color: rgb(141, 20, 135);}
+
+}
+
+.tunki {
+    margin-left: 10vw;
+    width: 300px;
+}
+
+
+body{
+    background: $primary;
+}
+.news {
+    .newstext{
+        position: $position;
+        height: 700px;
+
+        h1,p{
+            @include font
+        }
+    }
+}
+
+
+.bg {
+    @include polygon
+}
+.navigace{
+    @include polygon($height: 20vh, $width : 100vw)
+}
+.tools{
+    @include imgs($center:space-around)
+}
+.tools2{
+    @include imgs
+}
+.devteam{
+    @include imgs
+}
+
+.pepazobrazena{
+    background-image: url("https://cdn.nexus.gg/assets/vidya/bb414dcfd5f14884ade3928c4f284243/images/screenshots/1.jpg");
+    background-size: 300px 300px;
+}
+
+.chujbobzobrazena{
+    background-image: url("https://geosociety.files.wordpress.com/2023/03/dunn-fairfax-1.jpg");
+    background-size: 300px 300px;
+}
+
+
+#sasap{
+    color: white;
+}
+.sasabgcolor{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#pepap{
+    color: red;
+    font-size: 20px;
+}
+.pepabgcolor{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.michalcolorbg{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#chujbobp{
+    font-size: 20px;
+    color: rgb(230, 0, 161);
+   
+}
+.chujbobbgcolor{
+    background-color: rgba(0,0,0,70%);
+}
