@@ -1,8 +1,16 @@
-# React + Vite
+# Game Developer Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a web made with Vite + React about a game dev studio "napicu" 
+[Web](https://rdyst.github.io/viteweb/)
+Creator: [Rdyst](https://github.com/Rdyst) A.k.a sasa
+Helped with design: ChujBob , Ashmane A.k.a Pepa Floydsky 
+Helped with bugs: [Tunki](https://github.com/Tsunaam1)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Currently the web is mostly done
+To-Do:
+optional:
+  -Add more projects
+  -Mobile version
+  -Add actual text instead of lorem ipsum
+  -Change imgs to webp or other
+  -optimize the code more for faster loads
