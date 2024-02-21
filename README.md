@@ -17,7 +17,7 @@ optional: <br />
 
 # How to install/Run
 You can either visit the [web](https://rdyst.github.io/viteweb/) or run it yourself <br/><br/>
-Firstly download [node.js](https://nodejs.org/en/) and then download this repo <br /><br/>
+Firstly download [node.js](https://nodejs.org/en/) and then download this repo in the case you want to run it <br /><br/>
 Make a new folder and open it in your Visual Studio Code (or other editors) and open a terminal <br /><br/>
 Run this command "npm create vite@latest" this is what i used (viteweb,React,javascript) follow the instructions that will show up after finishing this <br /><br/>
 after running "npm run dev" you should see the link of the web and you are done ! <br/><br/>
