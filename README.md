@@ -18,7 +18,7 @@ optional: <br />
 # React/Vite
 Pros:<br />
 -components (structured html and JS)<br />
-Cons:<br />
+Cons:<br /><br />
 -confusing<br />
 -overly complicated<br />
 -not a lot of tutorials<br />
@@ -37,7 +37,7 @@ Pros:<br />
 -Mixins (templates)<br />
 -Variables<br />
 -Module(components)<br />
-Cons:<br />
+Cons:<br /><br />
 -Useless for a small project or if there are no repeated styles/templates<br />
 
 # How to install/Run SASS/SCSS
