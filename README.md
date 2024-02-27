@@ -41,8 +41,8 @@ Cons:<br />
 -Useless for a small project or if there are no repeated styles/templates<br />
 
 # How to install/Run SASS/SCSS
-Open Visual Studio Code<br />
-Download the "Live SASS compiler" extension<br />
-Create and open a scss file<br />
-Activate "Live SASS compiler" by clicking the "watch SASS" button<br />
+Open Visual Studio Code<br /><br />
+Download the "Live SASS compiler" extension<br /><br />
+Create and open a scss file<br /><br />
+Activate "Live SASS compiler" by clicking the "watch SASS" button<br /><br />
 Style your Website!
