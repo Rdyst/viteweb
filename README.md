@@ -16,13 +16,13 @@ optional: <br />
   -optimize the code more for faster loads <br />
 
 # React/Vite
-Pros:
--components (structured html and JS)
-Cons:
--confusing
--overly complicated
--not a lot of tutorials
--errors are hard to find
+Pros:<br />
+-components (structured html and JS)<br />
+Cons:<br />
+-confusing<br />
+-overly complicated<br />
+-not a lot of tutorials<br />
+-errors are hard to find<br />
 
 # How to install/Run React/Vite
 You can either visit the [web](https://rdyst.github.io/viteweb/) or run it yourself <br/><br/>
@@ -33,15 +33,15 @@ after running "npm run dev" you should see the link of the web and you are done 
 If you want to run my repo then just download it and paste/replace it in your newly made vite-project.
 
 # SASS/SCSS
-Pros:
--Mixins (templates)
--Variables
--Module(components)
-Cons:
--Useless for a small project or if there are no repeated styles/templates
+Pros:<br />
+-Mixins (templates)<br />
+-Variables<br />
+-Module(components)<br />
+Cons:<br />
+-Useless for a small project or if there are no repeated styles/templates<br />
 
 # How to install/Run SASS/SCSS
--Open Visual Studio Code
+-Open Visual Studio Code<br />
 -Download the "Live SASS compiler" extension
 -Create and open a scss file
 -Activate "Live SASS compiler" by clicking the "watch SASS" button
