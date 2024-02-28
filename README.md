@@ -3,7 +3,7 @@
 This is a web made with Vite + React and SASS about a game dev studio "napicu" 
 you can find the web [here](https://rdyst.github.io/viteweb/) <br /><br />
 Creator: [Rdyst](https://github.com/Rdyst) A.k.a sasa <br />
-Helped with design (SASS/SCSS): ChujBob honorable mention Ashmane A.k.a Pepa Floydsky <br />
+Helped with design (SASS/SCSS): [CHUJBOB](https://github.com/MartinKonarek29) honorable mention Ashmane A.k.a Pepa Floydsky <br />
 Helped with bugs: [Tunki](https://github.com/Tsunaam1) <br />
 
 Currently the web is mostly done <br />
