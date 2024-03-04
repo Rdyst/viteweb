@@ -10,7 +10,7 @@ Currently the web is mostly done <br />
 To-Do List -> 
 optional: <br />
   -Add more projects <br />
-  -Mobile version
+  -Mobile version <br />
   -Add actual text instead of lorem ipsum <br />
   -Change imgs to webp or other <br />
   -optimize the code more for faster loads <br />
