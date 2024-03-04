@@ -5,6 +5,7 @@ you can find the web [here](https://rdyst.github.io/viteweb/) <br /><br />
 Creator: [Rdyst](https://github.com/Rdyst) A.k.a sasa <br />
 Helped with design (SASS/SCSS): [CHUJBOB](https://github.com/MartinKonarek29)  <br />
 - honorable mention Ashmane A.k.a [Pepa Floydsky](https://github.com/PepaFloydsky) <br/>
+
 Helped with bugs: [Tunki](https://github.com/Tsunaam1) <br />
 
 Currently the web is mostly done <br />
