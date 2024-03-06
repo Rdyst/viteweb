@@ -111,7 +111,7 @@ ul>li>a{
 }
 .navigace > h1{
     font-size: 8em;
-    margin-left: 5vw;
+    margin-left: 50px;
     margin-top: -20px;
     color: white;
     letter-spacing: 100px;
@@ -489,7 +489,7 @@ ul>li>a{
 }
 #pepap{
     color: red;
-    font-size: 20px;
+    font-size: 18px;
 }
 .pepabgcolor{
     background-color: rgba(0, 0, 0, 0.5);
